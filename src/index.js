@@ -29,4 +29,4 @@ function mod(a, b) {
 module.exports.mod = mod;
 
 // Example:
-// console.log(mod(7, 3)); // 1
+// console.log(mod(10, 3)); // 1
