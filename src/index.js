@@ -19,7 +19,7 @@ module.exports = add;
  * @param {number} b
  * @returns {number}
  */
-function multiply(a, b) {
+const multiply = (a, b) => {
   return Number(a) * Number(b);
 }
 
