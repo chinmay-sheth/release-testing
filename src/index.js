@@ -13,7 +13,6 @@ module.exports = add;
 // Example:
 // console.log(add(2, 3)); // 5
 
-
 /**
  * Divide two numbers.
  * @param {number} a
@@ -32,3 +31,18 @@ module.exports.divide = divide;
 
 // Example:
 // console.log(divide(10, 2)); // 5
+
+/**
+ * Multiply two numbers.
+ * @param {number} a
+ * @param {number} b
+ * @returns {number}
+ */
+const multiply = (a, b) => {
+  return Number(a) * Number(b);
+}
+
+module.exports = { add: module.exports, multiply };
+
+// Example:
+// console.log(multiply(5, 3)); // 15
