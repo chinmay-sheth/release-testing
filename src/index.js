@@ -31,4 +31,4 @@ function divide(a, b) {
 module.exports.divide = divide;
 
 // Example:
-// console.log(divide(6, 2)); // 3
+// console.log(divide(10, 2)); // 5
