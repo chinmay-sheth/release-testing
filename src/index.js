@@ -26,4 +26,4 @@ function multiply(a, b) {
 module.exports = { add: module.exports, multiply };
 
 // Example:
-// console.log(multiply(2, 3)); // 6
+// console.log(multiply(5, 3)); // 15
